@@ -1,0 +1,454 @@
+<HTML>
+<HEAD>
+  <!-- Created with AOLpress/2.0 -->
+  <TITLE>The Good Old Days</TITLE>
+</HEAD>
+<BODY TEXT="#000000" LINK="#000000" VLINK="#000000" BACKGROUND="interview/..\..\background.jpg">
+<SCRIPT LANGUAGE=JavaScript>
+<!--
+function Decode(s){
+  var s1=unescape(s.substr(0,s.length-1)); var t='';
+  for(i=0;i<s1.length;i++) t+=String.fromCharCode(s1.charCodeAt(i)-s.substr(s.length-1,1));
+  document.write(unescape(t));
+}
+//-->
+
+</SCRIPT>
+<SCRIPT LANGUAGE=JavaScript src="../fs_img/js/md5.js"></SCRIPT>
+<!-- '"AWS"' -->
+<!-- Auto Banner Insertion Begin -->
+<div id=aws_3897 align=center><style type="text/css">
+  .mwsb{ background-color: 3366CC; border-width: 1px; border-color: 3366CC; border-style: solid; }
+  .mwst, .mwst a{ font-family: arial,sans-serif; font-size: 8pt; background-color: white; color: blue;}
+  </style>
+  <!------ OAS SETUP begin ------>
+  <img src="http://track.untd.com/s/oasrdb?pid=MWS&profile=,," width="1" height="1">
+  <SCRIPT LANGUAGE=JavaScript>
+  <!--
+  //configuration
+  OAS_url = "http://cyclops.untd.com/";
+  //OAS_sitepage values can be found in the excel spreadsheet showing position and pagenames.
+  OAS_sitepage = 'webservices/general'; //CHANGED
+  //OAS_sitepage = window.location.hostname + window.location.pathname;
+  // must list every Ad position on the page or they will not show.  Also you can't have line items that are not on the page or a impression will be counted even though it was actually shown. 
+  OAS_listpos = 'Top,Bottom,Frame1,Frame2,Right,TopLeft,Top1,TopRight';
+  OAS_query = '';
+  OAS_target = '_Blank';
+  //end of configuration
+  OAS_version = 10;
+  OAS_rn = '001234567890'; OAS_rns = '1234567890';
+  OAS_rn = new String (Math.random()); OAS_rns = OAS_rn.substring (2, 11);
+  function OAS_NORMAL(pos) {
+    document.write('<A HREF="' + OAS_url + 'click_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '!' + pos + '?' + OAS_query + '" TARGET=' + OAS_target + '>');
+    document.write('<IMG SRC="' + OAS_url + 'adstream_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '!' + pos + '?' + OAS_query + '" BORDER=0></A>');
+  }
+  //-->
+  </SCRIPT>
+
+
+  <SCRIPT LANGUAGE=JavaScript1.1>
+  <!--
+  OAS_version = 11;
+  if ((navigator.userAgent.indexOf('Mozilla/3') != -1) || (navigator.userAgent.indexOf('Mozilla/4.0 WebTV') != -1))
+    OAS_version = 10;
+  if (OAS_version >= 11)
+    document.write('<SCR' + 'IPT LANGUAGE=JavaScript1.1 SRC="' + OAS_url + 'adstream_mjx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '?' + OAS_query + '"><\/SCR'+'IPT>');//-->
+  </SCRIPT>
+
+  <SCRIPT LANGUAGE=JavaScript>
+  <!--
+  document.write('');
+  function OAS_AD(pos) {
+    if ((OAS_version >= 11) && (typeof OAS_RICH != 'undefined')) {
+      OAS_RICH(pos);
+    } else {
+      OAS_NORMAL(pos);
+    }
+  }
+
+  //-->
+  </SCRIPT>
+  <!-- start /fs_img/about_pop.txt -->
+<!-- The only pops this script can generate now are:
+			1. Pops from UOL
+			2. In-house popup
+-->
+<script language="JavaScript">
+<!--
+var isUS = "0";
+var keyword = escape("");
+var compname='freeservers';
+var ourExitPop=true;
+
+function popSlot(slot){
+    // OAS AD 'Frame1' begin
+    if(window.OAS_AD) OAS_AD('Frame1');
+    // OAS AD 'Frame1' begin
+}
+
+function checkPopunderCookie() {
+	var cookieVal = 0;
+	cookieExpDays = (1/24);  
+	var expDate = new Date();
+	expDate.setTime(expDate.getTime() + (86400000 * cookieExpDays));
+	cookieDate = ";Expires=" + expDate.toGMTString();
+	if (document.cookie) {
+		var cookieInfo = document.cookie.split(";");
+		for (i=0; i<cookieInfo.length; i++) {
+			cName = cookieInfo[i].split("=")[0];
+			if (cName.indexOf("pixelpop") >= 0) {
+				cookieVal = cookieInfo[i].split("=")[1];
+			}
+		}
+	}
+	cookieVal++;
+	document.cookie="pixelpopslot="+cookieVal+";path=/;"+cookieDate;
+ 	if (cookieVal== 1) { popSlot(1); }
+ 	if (cookieVal== 2) { popSlot(2); }
+ 	if (cookieVal== 3) { popSlot(3); }
+ 	if (cookieVal== 4) { popSlot(4); }
+ 	if (cookieVal== 5) { popSlot(5); }
+ 	if (cookieVal== 6) { popSlot(6); }
+ 	if (cookieVal== 7) { popSlot(7); }
+ 	if (cookieVal== 8) { popSlot(8); }
+}
+
+if (!window.sprs) checkPopunderCookie();
+
+if (!window.sprs && ourExitPop && (navigator.appName.indexOf('etscape')==-1)){
+	window.onunload=staycheck;
+	StayingOnSite=false;
+	DadLinkURLs="";
+	BabyLink="";
+	DadWindow=window.parent;
+	DadLinks=DadWindow.document.links;
+	DadHost="http://"+location.hostname;
+	DadWindow.document.onclick=linktellerDad;
+	document.onclick=linktellerThis;
+	function linkteller(){
+		while (EventTag.parentElement&&(EventTag.tagName!="A")){
+				EventTag=EventTag.parentElement;
+		}
+		if ((EventTag.tagName=="A")&&(!EventTag.target)){
+			if (EventTag.href.indexOf(DadHost)>-1){
+				StayingOnSite=true;
+			} else {
+				StayingOnSite=false;
+			}
+		}
+	}
+	function linktellerThis(){
+		EventTag=window.event.srcElement;
+		linkteller();
+	}
+	function linktellerDad(){
+		EventTag=DadWindow.event.srcElement;
+		linkteller();
+	}
+	function staycheck(){
+		if (StayingOnSite){
+		} else {
+		}
+	}
+}
+-->
+</SCRIPT>
+<!-- end /fs_img/about_pop.txt -->
+  <table cellpadding="0" cellspacing="0" width="980">
+
+    <!-- start: related resources -->
+    <tr>
+      <td colspan="3">
+        <table cellpadding="0" cellspacing="0" align="center" width="100%" class="mwsb">
+          <tr>
+            <td class="mwst" id="uows0207" align="center">
+              <a href="http://www.freeservers.com" target="_top">Free Web Hosting Provider</a> 
+              - <a href="http://www.globalservers.com" target="_top">Web Hosting</a>
+              - <a href="http://www.bizhosting.com" target="_top">E-commerce</a>
+              - <a href="http://www.netzero.com/?refcd=MWS0404NWP11" target="_top">High Speed Internet</a>
+              - <a href="http://www.freeservers.com/Free-Web-Page.html" target="_top">Free Web Page</a>
+              <script type="text/javascript"><!--
+              function find(){ obj = document.getElementById('uows0207'); arr = obj.getElementsByTagName('a'); for(var i=0;i<arr.length;i++){ var x = '?refcd=WSUOWS020722NB01'; if(!arr[i].href.match(/refcd/)) arr[i].href+=x; }}; find();
+              //--></script>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <!-- end: related resources -->
+
+    <tr>
+      <td width="130">
+        <table cellpadding="0" cellspacing="0" width="130" style="margin-top:2px;">
+          <tr>
+            <td class="mwst" nowrap="1">
+              <a href="http://8m.com/?refcd=MWS_20040713_Banner_bar"
+                ><img src="http://skistorage.8m.com/cgi-bin/image/images/bannertype/100X22.gif" width="100" height="22" border="0"
+                ></a
+              ><a href="http://skistorage.8m.com/cgi-bin/login" target="_blank"
+                ><img src="http://skistorage.8m.com/cgi-bin/image/images/bannertype/login_chunkx.gif" width="30" height="22" border="0"
+                ></a
+             ></td>
+          </tr>
+        </table>
+        
+        <table class="mwsb" cellpadding="0" cellspacing="0" width="100%" style="margin-top:2px;">
+          <tr>
+            <td align="center">
+              <a href="http://skistorage.8m.com/cgi-bin/path/signup?refcd=MWS_20040713_Banner_bar"
+              ><img src="http://static.uolcontent.com/RealMedia/ads/Creatives/ISP/MWS_Mkting_LSKYBUT_34_8023/128x64_get_a_free_website_01.gif" border="0"
+              ></a>
+            </td>
+          </tr>
+        </table>
+      </td>
+
+      <td>
+        <table cellspacing="0" class="mwsb" style="margin:2px;margin-bottom:0px;table-layout:fixed;"> 
+          <tr>
+            <td class="mwst" align="center" style="width:730px;">
+    <!------ OAS AD 'Top' begin ------>
+    <SCRIPT LANGUAGE=JavaScript>
+    <!--
+    if(window.OAS_AD) OAS_AD('Top');
+    //-->
+    </SCRIPT>
+    <!------ OAS AD 'Top' end ------></td>
+          </tr>
+        </table>
+      </td>
+
+      <td width="120">
+        <table class="mwsb" cellpadding="0" cellspacing="0" width="120" style="margin-top:2px;">
+          <tr>
+            <td class="mwst" nowrap="1">
+              <SCRIPT LANGUAGE=JavaScript><!--
+              OAS_AD('Top1');
+              //--></SCRIPT>
+            </td>
+          </tr>
+        </table>
+        
+        <table class="mwsb" cellpadding="0" cellspacing="0" width="100%" style="margin-top:2px;">
+          <tr>
+            <td align="center">
+              <SCRIPT LANGUAGE=JavaScript><!--
+              OAS_AD('TopRight');
+              //--></SCRIPT>
+            </td>
+          </tr>
+        </table>
+      </td>
+
+    </tr>
+    <tr>
+      <td colspan="3" align="center">
+        <!-- search bar begins --><table width="100%" cellpadding="0" cellspacing="0" class="mwsb" style="border-width:2px; margin-top:10px; background-color:white; height:10px;">  <tr valign="top">    <td align="center">      <form action="http://search.mysite.com/search" style="margin:0;" target="_blank">      <span style="position:relative;top:-5px;font-family:arial;font-size:12px;color:#000;"><b>Search the Web</b></span>      <input type="hidden" name="source" value="mws_endsite_box">      <input type="hidden" name="action" value="search">      <input name="query" accesskey="s" style="width:400px; height:21px; background:white; border:1px #A4ABB1 solid; font-family: arial, sans-serif; font-size: 10pt; color: #000000; position:relative; top:-6px;">      <input type="image" src="../fs_img/bannertype/infospace/search_sp_go.gif">      <img src="../fs_img/bannertype/infospace/search_logo.gif" style="position:relative;top:4px;left:10px;">      </form>    </td>    <td width="5%"></td>  </tr></table>
+      </td>
+    </tr>
+  </table><DIV id=sideFrame 
+	style="MARGIN-TOP: 27px; RIGHT: 5px; WIDTH: 120px; COLOR: #ffffff; POSITION: absolute; BACKGROUND-COLOR: #CCCCCC; Z-INDEX: 10000; TEXT-ALIGN: right"><A 
+	href="javascript:void%20(sideFrameOff())"><IMG src="../fs_img/banners/xout.gif" title="Close"
+	border=0></A><BR>
+  <!------ OAS AD 'Right' begin ------>
+  <SCRIPT LANGUAGE=JavaScript>
+  <!--
+  OAS_AD('Right');
+  // -->
+  </SCRIPT>
+  <!------ OAS AD 'Right' end ------>
+	<SCRIPT>
+		origRightPadding=document.body.style.paddingRight;
+		document.body.style.paddingRight="130px";
+		function sideFrameOff(){
+			document.getElementById('sideFrame').style.display='none';
+			document.body.style.paddingRight=origRightPadding;
+		}
+	</SCRIPT>
+	</DIV>
+  <DIV id="setMyHomeOverlay" align="left" style="position:absolute; top:25%; left:25%; width:358px; border:1px solid #AEAEAE; background-color:white; z-index:200000; display: none;">
+    <div style="height:59px; padding-left:22px; background:white url('http://skistorage.8m.com/cgi-bin/image/images/sethome_top_border.gif') repeat-x;">
+    <div style="float:left; width:182px; height:35px; margin-top:12px; font:bold 38px arial,sans-serif; color:#454545"> Welcome! </div>
+    <div style="float:right; padding:6px 5px 0px 5px;"><a href="olddays.html#" onclick="javascript:do_set_homepage('close'); return false;">
+    <div style="background:url('http://skistorage.8m.com/cgi-bin/image/images/sethome_x.gif'); width:21px; height:21px; cursor:pointer;"></div></a></div>
+    <div style="float:right; font:bold 12px arial; margin-top:10px;"><a style="text-decoration:none; color:#004182;" href="olddays.html#" onclick="javascript:do_set_homepage('close'); return false;">Close</a></div></div>
+    <div style="height:170px; background:#ffffff;">
+    <div style="padding:30px 20px 0px 20px; font:normal 14px arial; height:80px;"> Would you like to make this site your homepage? It's fast and easy... </div>
+    <div style="padding:10px 0 0 41px;">
+    <div style="float:left;cursor:pointer; background:white url('http://skistorage.8m.com/cgi-bin/image/images/sethome_btn_l.gif'); width:4px; height:26px;" onclick="javascript:do_set_homepage('do');"> </div>
+    <div style="float:left;cursor:pointer; background:white url('http://skistorage.8m.com/cgi-bin/image/images/sethome_btn_m.gif') repeat-x; width:265px; height:26px; text-align:center; font:bold 13px Arial; color:#FFFFFF; line-height:25px;" onclick="javascript:do_set_homepage('do');"> Yes, Please make this my home page! </div>
+    <div style="float:left;cursor:pointer; background:white url('http://skistorage.8m.com/cgi-bin/image/images/sethome_btn_r.gif'); width:4px; height:26px;" onclick="javascript:do_set_homepage('do');"> </div></div>
+    <div style="padding-left:148px; padding-top:7px; clear:both; font:normal 12px arial;"><a href="olddays.html#" style="text-decoration:none; color:#004182;" onclick="javascript:do_set_homepage('close'); return false;">No Thanks</a></div></div>
+    <div style="height:36px; background: white url('http://skistorage.8m.com/cgi-bin/image/images/sethome_bot_border.gif') repeat-x;">
+    <div style="float:left;margin:12px 0px 0px 20px; line-height:10px;"><input type="checkbox" style="width:11px; height:11px;" onclick="javascript:do_set_homepage('dont');"></div>
+    <div style="float:left;font:normal 12px arial;padding:10px 0 0 2px;"> &nbsp; Don't show this to me again.</div>
+    <div style="float:right; padding:6px 5px 0px 5px;"><a href="olddays.html#" onclick="javascript:do_set_homepage('close'); return false;">
+    <div style="background:url('http://skistorage.8m.com/cgi-bin/image/images/sethome_x.gif'); width:21px; height:21px; cursor:pointer;"></div></a></div>
+    <div style="float:right;font:bold 12px arial; margin-top:10px;"><a style="text-decoration:none; color:#004182;" href="olddays.html#" onclick="javascript:do_set_homepage('close'); return false;">Close</a></div></div></div>
+    <span ID="mws_oHomePageOverlay" style="behavior:url(olddays.html); display:none;"></span>
+    <script src="../fs_img/js/overlay.js"></script><script defer="defer" src="../fs_img/js/set_homepage.js"></script></div><!-- Auto Banner Insertion Complete THANK YOU -->
+
+<SCRIPT LANGUAGE=JavaScript>
+<!--   
+    Decode('%297Gwgvmtx%2964perkyeki%297H%2966nezewgvmtx%2966%2964x%7Dti%297H%2966xi%7Cx3nezewgvmtx%2966%2964wvg%297H%29663gkm1fmr3zepmhexicferriv%297Jirg%297Hvxk3vxke%3D%3D%3D%29697E3vuyze%3D%3B786%2966%297I%297G3wgvmtx%297I4');
+//-->
+</SCRIPT>
+
+<P ALIGN=Center>
+<B><BIG><BIG><BIG><BIG><BIG>The Good Old
+Days</BIG></BIG></BIG></BIG></BIG></B>
+  <HR>
+<P ALIGN=Center>
+<B><BIG><BIG>Part 1</BIG></BIG></B>
+<P>
+<A HREF="mailto:jyarddog@spiritone.com">Bob
+Lacy</A>(jyarddog@spiritone.com),<BR>
+Oregon - Mt.Hood Area
+<P ALIGN=Left>
+&nbsp; &nbsp; &nbsp; &nbsp;Well, Sonny! Back when I was your age we alked
+to school... 5 miles, uphill, both ways... in 5 ft of snow... in the heat
+of July! Oh! sorry! Forgot to take my Viagra and prozac! bwahahaha<BR>
+&nbsp; &nbsp; &nbsp; Winter of 56-57, 5th grade. I didn't give a rip about
+girls, just skiing, or learning how to. (I had it bad!) I had a fever the
+night before. This was because I was so excited in going. Mom said I wasn't
+going if the fever wasn't down by morning. You never saw a kid hit the sack
+so fast! The next day I was on my way to Mt. Hood Ski Bowl to learn how to
+ski. A bus load of screaming kids arrives and we all pile out to the back
+of the&nbsp;bus to get our skis, which are all piled on top of each other.
+Solid wood skis long enough to reach from the ground to the first knuckle
+on your longest finger, standing straight with your arm stretched skyward
+as high as possible. Some of us had the newer metal poles. Some had the standard
+bamboo poles. The poles had metal rings for baskets which were attached by
+leather straps to the pole itself. All skis by this time had metal edges.Most
+came in sections so if a part of the edge got hit or bent you could buy another
+section (8" or so) and screw it in place. When metal edges first came on
+the scene it was considered cheating and unfair advantage. Sounds like some
+guys today. (The more things change, the more they remain the same).<BR>
+&nbsp; &nbsp; &nbsp; &nbsp;I had bear claw bindings and was told to get new
+bindings fast. I got something that looked like a flat, but wavy piece of
+metal with a dimple in it and a metal piece with a bump on it which was screwed
+into the toe of my boots. This fit into the dimple. We all still had the
+cable which you hooked around a groove in the heel of your boot, and then
+you threw the lever forward or backward, which ever the lever action was
+for that binding. You had metal cable guides along the sides of your skis
+for the cable! Some of us even repositioned the farthest back guide further
+back in order to get a more downward pull on the heel &nbsp;to keep the heel
+from lifting up so damned much. One girl in our class had one of the new
+safety bindings from Marker, "SkiFree". <BR>
+&nbsp; &nbsp; &nbsp; Boots were great. About 350 different makers. Some even
+had an inner boot also made of leather. Us cool dudes made neat lacing patterns
+while lacing up our boots. This took place about 20 minutes before you got
+to the ski area. End of the day always saw your feet soaking wet. That's
+why you always brought an extra pair of socks and a towel. Your boots always
+went back into the boot tree, if you could con your folks into buying one
+for you. This would clamp down on your boot with wingnuts to keep the toe
+from curling up like an elve's sandal!!! <BR>
+Instructors seemed to have the best stuff. SkiFree bindings or the like with
+long leather straps which you wrapped around your boots which ended up in
+a clamp type buckle. This looked cool and important! The rest of us had nothing.
+When your ski came off in a fall-which rarely happened... (yeah, right),
+The ski would take off downhill seeming to scream, "I'm free! I'm free! Long
+live liberty!" When it happened to someone else it was always a good excuse
+to yell,"Runnaway ski!" And we all would take off after it. It was a good
+excuse to go hell bent for election downhill after it and go as fast as we
+could. Of course we didn't have a snowball's chance in hell catching the
+damned thing, but it was a good excuse to go fast. This tended to piss off
+the ski patrol who warned us many times to stop it or he'd pull our tags!
+(You just had to watch out for thsoe ski patrol guys. If you didn't see any....
+Go for it!<BR>
+&nbsp; &nbsp; &nbsp;At Ski Bowl between upper bowl and lower there was a
+small hut where you could get lunch and get warm. Today it is an historical
+landmark (makes ya feel old!) They call it a warming hut. No burgers, no
+fries, just fancy foo-foo drinks like Italian ices, beer, chips. Yuppie food!
+Yechhhh!<BR>
+&nbsp; &nbsp; &nbsp;Chair lifts were great! Wooden towers, single chairs,
+got caught on one for 2 1/2 hrs. during a storm once. Upper bowl had a double
+chair! But none of us was good enough to do the upper bowl. it's so steep
+it is called the "Back Wall". That's it for now. More stabs from the past
+for another time. Bob
+  <HR>
+<P ALIGN=Center>
+<A HREF="../articalform.html">Write one
+yourself</A><BR>
+<A HREF="../article.html">Go Back</A>
+</BODY></HTML>
+
+<SCRIPT LANGUAGE=JavaScript>
+<!--   
+    Decode('%275Euetkrv%2742ncpiwcig%275F%2744lcxcuetkrv%2744%2742v%7Brg%275F%2744vgzv1lcxcuetkrv%2744%2742ute%275F%27441eik/dkp1xcnkfcvgadcppgt%275Hgpe%275Frquv/2%2744%275G%275E1uetkrv%275G2');
+//-->
+</SCRIPT>
+
+
+<!-- PrintTracker Insertion Begin -->
+<script src="../fs_img/js/pt.js" type="text/javascript"></script>
+<!-- PrintTracker Insertion Complete -->
+
+
+<!-- Google Analytics Insertion Begin -->
+<script type="text/javascript">
+<!--
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        var URL = gaJsHost + "google-analytics.com/ga.js";
+        document.write(unescape("%3Cscript src='" + URL + "' type='text/javascript'%3E%3C/script%3E"));
+
+        var hndl = window.setTimeout('StartTracking()',100);
+        function StartTracking(){
+          if( typeof(_gat) == 'object'){ 
+             window.clearTimeout(hndl);
+             var pageTracker = _gat._getTracker("UA-4601892-3");
+             pageTracker._setDomainName("none");
+             pageTracker._setAllowLinker(true);
+             pageTracker._initData();
+             pageTracker._trackPageview();
+          }else{
+             hndl = window.setTimeout('StartTracking()',100);
+          }
+        }
+-->
+</script>
+<!-- Google Analytics Insertion Complete -->
+
+<SCRIPT LANGUAGE=JavaScript>
+  <!--
+  //configuration
+  OAS_url = "http://cyclops.untd.com/";
+  OAS_sitepage = 'webservices/general'; //CHANGED
+  OAS_listpos = 'Bottom';
+  OAS_query = '';
+  OAS_target = '_Blank';
+  //end of configuration
+  OAS_version = 10;
+  OAS_rn = '001234567890'; OAS_rns = '1234567890';
+  OAS_rn = new String (Math.random()); OAS_rns = OAS_rn.substring (2, 11);
+  function OAS_NORMAL(pos) {
+    document.write('<A HREF="' + OAS_url + 'click_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '!' + pos + '?' + OAS_query + '" TARGET=' + OAS_target + '>');
+    document.write('<IMG SRC="' + OAS_url + 'adstream_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '!' + pos + '?' + OAS_query + '" BORDER=0></A>');
+  }
+  //-->
+  </SCRIPT>
+
+  <SCRIPT LANGUAGE=JavaScript1.1>
+  <!--
+  OAS_version = 11;
+  if ((navigator.userAgent.indexOf('Mozilla/3') != -1) || (navigator.userAgent.indexOf('Mozilla/4.0 WebTV') != -1))
+    OAS_version = 10;
+  if (OAS_version >= 11)
+    document.write('<SCR' + 'IPT LANGUAGE=JavaScript1.1 SRC="' + OAS_url + 'adstream_mjx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '?' + OAS_query + '"><\/SCRIPT>');
+  //-->
+  </SCRIPT>
+
+  <SCRIPT LANGUAGE=JavaScript>
+  <!--
+  document.write('');
+  function OAS_AD(pos) {
+    if ((OAS_version >= 11) && (typeof OAS_RICH != 'undefined')) {
+      OAS_RICH(pos);
+    } else {
+      OAS_NORMAL(pos);
+    }
+  }
+  //-->
+  </SCRIPT>
+
+  <TABLE ALIGN=CENTER STYLE="clear:both"><TR><TD ALIGN=CENTER> <!------ OAS AD 'Bottom' begin ------> <SCRIPT LANGUAGE=JavaScript> if(window.OAS_AD) OAS_AD('Bottom'); </SCRIPT> <!------ OAS AD 'Bottom' end ------> </TD></TR></TABLE>

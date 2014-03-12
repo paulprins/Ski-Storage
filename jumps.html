@@ -1,0 +1,585 @@
+<HTML>
+<HEAD>
+  <!-- Created with AOLpress/2.0 -->
+  <TITLE>The Jumps</TITLE>
+</HEAD>
+<BODY TEXT="#000000" LINK="#000000" VLINK="#000000" BACKGROUND="article/interview/..\..\background.jpg">
+<SCRIPT LANGUAGE=JavaScript>
+<!--
+function Decode(s){
+  var s1=unescape(s.substr(0,s.length-1)); var t='';
+  for(i=0;i<s1.length;i++) t+=String.fromCharCode(s1.charCodeAt(i)-s.substr(s.length-1,1));
+  document.write(unescape(t));
+}
+//-->
+
+</SCRIPT>
+<SCRIPT LANGUAGE=JavaScript src="fs_img/js/md5.js"></SCRIPT>
+<!-- '"AWS"' -->
+<!-- Auto Banner Insertion Begin -->
+<div id=aws_2066 align=center><style type="text/css">
+  .mwsb{ background-color: 3366CC; border-width: 1px; border-color: 3366CC; border-style: solid; }
+  .mwst, .mwst a{ font-family: arial,sans-serif; font-size: 8pt; background-color: white; color: blue;}
+  </style>
+  <!------ OAS SETUP begin ------>
+  <img src="http://track.untd.com/s/oasrdb?pid=MWS&profile=,," width="1" height="1">
+  <SCRIPT LANGUAGE=JavaScript>
+  <!--
+  //configuration
+  OAS_url = "http://cyclops.untd.com/";
+  //OAS_sitepage values can be found in the excel spreadsheet showing position and pagenames.
+  OAS_sitepage = 'webservices/general'; //CHANGED
+  //OAS_sitepage = window.location.hostname + window.location.pathname;
+  // must list every Ad position on the page or they will not show.  Also you can't have line items that are not on the page or a impression will be counted even though it was actually shown. 
+  OAS_listpos = 'Top,Bottom,Frame1,Frame2,Right,TopLeft,Top1,TopRight';
+  OAS_query = '';
+  OAS_target = '_Blank';
+  //end of configuration
+  OAS_version = 10;
+  OAS_rn = '001234567890'; OAS_rns = '1234567890';
+  OAS_rn = new String (Math.random()); OAS_rns = OAS_rn.substring (2, 11);
+  function OAS_NORMAL(pos) {
+    document.write('<A HREF="' + OAS_url + 'click_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '!' + pos + '?' + OAS_query + '" TARGET=' + OAS_target + '>');
+    document.write('<IMG SRC="' + OAS_url + 'adstream_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '!' + pos + '?' + OAS_query + '" BORDER=0></A>');
+  }
+  //-->
+  </SCRIPT>
+
+
+  <SCRIPT LANGUAGE=JavaScript1.1>
+  <!--
+  OAS_version = 11;
+  if ((navigator.userAgent.indexOf('Mozilla/3') != -1) || (navigator.userAgent.indexOf('Mozilla/4.0 WebTV') != -1))
+    OAS_version = 10;
+  if (OAS_version >= 11)
+    document.write('<SCR' + 'IPT LANGUAGE=JavaScript1.1 SRC="' + OAS_url + 'adstream_mjx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '?' + OAS_query + '"><\/SCR'+'IPT>');//-->
+  </SCRIPT>
+
+  <SCRIPT LANGUAGE=JavaScript>
+  <!--
+  document.write('');
+  function OAS_AD(pos) {
+    if ((OAS_version >= 11) && (typeof OAS_RICH != 'undefined')) {
+      OAS_RICH(pos);
+    } else {
+      OAS_NORMAL(pos);
+    }
+  }
+
+  //-->
+  </SCRIPT>
+  <!-- start /fs_img/about_pop.txt -->
+<!-- The only pops this script can generate now are:
+			1. Pops from UOL
+			2. In-house popup
+-->
+<script language="JavaScript">
+<!--
+var isUS = "0";
+var keyword = escape("");
+var compname='freeservers';
+var ourExitPop=true;
+
+function popSlot(slot){
+    // OAS AD 'Frame1' begin
+    if(window.OAS_AD) OAS_AD('Frame1');
+    // OAS AD 'Frame1' begin
+}
+
+function checkPopunderCookie() {
+	var cookieVal = 0;
+	cookieExpDays = (1/24);  
+	var expDate = new Date();
+	expDate.setTime(expDate.getTime() + (86400000 * cookieExpDays));
+	cookieDate = ";Expires=" + expDate.toGMTString();
+	if (document.cookie) {
+		var cookieInfo = document.cookie.split(";");
+		for (i=0; i<cookieInfo.length; i++) {
+			cName = cookieInfo[i].split("=")[0];
+			if (cName.indexOf("pixelpop") >= 0) {
+				cookieVal = cookieInfo[i].split("=")[1];
+			}
+		}
+	}
+	cookieVal++;
+	document.cookie="pixelpopslot="+cookieVal+";path=/;"+cookieDate;
+ 	if (cookieVal== 1) { popSlot(1); }
+ 	if (cookieVal== 2) { popSlot(2); }
+ 	if (cookieVal== 3) { popSlot(3); }
+ 	if (cookieVal== 4) { popSlot(4); }
+ 	if (cookieVal== 5) { popSlot(5); }
+ 	if (cookieVal== 6) { popSlot(6); }
+ 	if (cookieVal== 7) { popSlot(7); }
+ 	if (cookieVal== 8) { popSlot(8); }
+}
+
+if (!window.sprs) checkPopunderCookie();
+
+if (!window.sprs && ourExitPop && (navigator.appName.indexOf('etscape')==-1)){
+	window.onunload=staycheck;
+	StayingOnSite=false;
+	DadLinkURLs="";
+	BabyLink="";
+	DadWindow=window.parent;
+	DadLinks=DadWindow.document.links;
+	DadHost="http://"+location.hostname;
+	DadWindow.document.onclick=linktellerDad;
+	document.onclick=linktellerThis;
+	function linkteller(){
+		while (EventTag.parentElement&&(EventTag.tagName!="A")){
+				EventTag=EventTag.parentElement;
+		}
+		if ((EventTag.tagName=="A")&&(!EventTag.target)){
+			if (EventTag.href.indexOf(DadHost)>-1){
+				StayingOnSite=true;
+			} else {
+				StayingOnSite=false;
+			}
+		}
+	}
+	function linktellerThis(){
+		EventTag=window.event.srcElement;
+		linkteller();
+	}
+	function linktellerDad(){
+		EventTag=DadWindow.event.srcElement;
+		linkteller();
+	}
+	function staycheck(){
+		if (StayingOnSite){
+		} else {
+		}
+	}
+}
+-->
+</SCRIPT>
+<!-- end /fs_img/about_pop.txt -->
+  <table cellpadding="0" cellspacing="0" width="980">
+
+    <!-- start: related resources -->
+    <tr>
+      <td colspan="3">
+        <table cellpadding="0" cellspacing="0" align="center" width="100%" class="mwsb">
+          <tr>
+            <td class="mwst" id="uows0207" align="center">
+              <a href="http://www.freeservers.com" target="_top">Free Web Hosting Provider</a> 
+              - <a href="http://www.globalservers.com" target="_top">Web Hosting</a>
+              - <a href="http://www.bizhosting.com" target="_top">E-commerce</a>
+              - <a href="http://www.netzero.com/?refcd=MWS0404NWP11" target="_top">High Speed Internet</a>
+              - <a href="http://www.freeservers.com/Free-Web-Page.html" target="_top">Free Web Page</a>
+              <script type="text/javascript"><!--
+              function find(){ obj = document.getElementById('uows0207'); arr = obj.getElementsByTagName('a'); for(var i=0;i<arr.length;i++){ var x = '?refcd=WSUOWS020722NB01'; if(!arr[i].href.match(/refcd/)) arr[i].href+=x; }}; find();
+              //--></script>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <!-- end: related resources -->
+
+    <tr>
+      <td width="130">
+        <table cellpadding="0" cellspacing="0" width="130" style="margin-top:2px;">
+          <tr>
+            <td class="mwst" nowrap="1">
+              <a href="http://8m.com/?refcd=MWS_20040713_Banner_bar"
+                ><img src="http://skistorage.8m.com/cgi-bin/image/images/bannertype/100X22.gif" width="100" height="22" border="0"
+                ></a
+              ><a href="http://skistorage.8m.com/cgi-bin/login" target="_blank"
+                ><img src="http://skistorage.8m.com/cgi-bin/image/images/bannertype/login_chunkx.gif" width="30" height="22" border="0"
+                ></a
+             ></td>
+          </tr>
+        </table>
+        
+        <table class="mwsb" cellpadding="0" cellspacing="0" width="100%" style="margin-top:2px;">
+          <tr>
+            <td align="center">
+              <a href="http://skistorage.8m.com/cgi-bin/path/signup?refcd=MWS_20040713_Banner_bar"
+              ><img src="http://static.uolcontent.com/RealMedia/ads/Creatives/ISP/MWS_Mkting_LSKYBUT_34_8023/128x64_get_a_free_website_01.gif" border="0"
+              ></a>
+            </td>
+          </tr>
+        </table>
+      </td>
+
+      <td>
+        <table cellspacing="0" class="mwsb" style="margin:2px;margin-bottom:0px;table-layout:fixed;"> 
+          <tr>
+            <td class="mwst" align="center" style="width:730px;">
+    <!------ OAS AD 'Top' begin ------>
+    <SCRIPT LANGUAGE=JavaScript>
+    <!--
+    if(window.OAS_AD) OAS_AD('Top');
+    //-->
+    </SCRIPT>
+    <!------ OAS AD 'Top' end ------></td>
+          </tr>
+        </table>
+      </td>
+
+      <td width="120">
+        <table class="mwsb" cellpadding="0" cellspacing="0" width="120" style="margin-top:2px;">
+          <tr>
+            <td class="mwst" nowrap="1">
+              <SCRIPT LANGUAGE=JavaScript><!--
+              OAS_AD('Top1');
+              //--></SCRIPT>
+            </td>
+          </tr>
+        </table>
+        
+        <table class="mwsb" cellpadding="0" cellspacing="0" width="100%" style="margin-top:2px;">
+          <tr>
+            <td align="center">
+              <SCRIPT LANGUAGE=JavaScript><!--
+              OAS_AD('TopRight');
+              //--></SCRIPT>
+            </td>
+          </tr>
+        </table>
+      </td>
+
+    </tr>
+    <tr>
+      <td colspan="3" align="center">
+        <!-- search bar begins --><table width="100%" cellpadding="0" cellspacing="0" class="mwsb" style="border-width:2px; margin-top:10px; background-color:white; height:10px;">  <tr valign="top">    <td align="center">      <form action="http://search.mysite.com/search" style="margin:0;" target="_blank">      <span style="position:relative;top:-5px;font-family:arial;font-size:12px;color:#000;"><b>Search the Web</b></span>      <input type="hidden" name="source" value="mws_endsite_box">      <input type="hidden" name="action" value="search">      <input name="query" accesskey="s" style="width:400px; height:21px; background:white; border:1px #A4ABB1 solid; font-family: arial, sans-serif; font-size: 10pt; color: #000000; position:relative; top:-6px;">      <input type="image" src="fs_img/bannertype/infospace/search_sp_go.gif">      <img src="fs_img/bannertype/infospace/search_logo.gif" style="position:relative;top:4px;left:10px;">      </form>    </td>    <td width="5%"></td>  </tr></table>
+      </td>
+    </tr>
+  </table><DIV id=sideFrame 
+	style="MARGIN-TOP: 27px; RIGHT: 5px; WIDTH: 120px; COLOR: #ffffff; POSITION: absolute; BACKGROUND-COLOR: #CCCCCC; Z-INDEX: 10000; TEXT-ALIGN: right"><A 
+	href="javascript:void%20(sideFrameOff())"><IMG src="fs_img/banners/xout.gif" title="Close"
+	border=0></A><BR>
+  <!------ OAS AD 'Right' begin ------>
+  <SCRIPT LANGUAGE=JavaScript>
+  <!--
+  OAS_AD('Right');
+  // -->
+  </SCRIPT>
+  <!------ OAS AD 'Right' end ------>
+	<SCRIPT>
+		origRightPadding=document.body.style.paddingRight;
+		document.body.style.paddingRight="130px";
+		function sideFrameOff(){
+			document.getElementById('sideFrame').style.display='none';
+			document.body.style.paddingRight=origRightPadding;
+		}
+	</SCRIPT>
+	</DIV>
+  <DIV id="setMyHomeOverlay" align="left" style="position:absolute; top:25%; left:25%; width:358px; border:1px solid #AEAEAE; background-color:white; z-index:200000; display: none;">
+    <div style="height:59px; padding-left:22px; background:white url('http://skistorage.8m.com/cgi-bin/image/images/sethome_top_border.gif') repeat-x;">
+    <div style="float:left; width:182px; height:35px; margin-top:12px; font:bold 38px arial,sans-serif; color:#454545"> Welcome! </div>
+    <div style="float:right; padding:6px 5px 0px 5px;"><a href="jumps.html#" onclick="javascript:do_set_homepage('close'); return false;">
+    <div style="background:url('http://skistorage.8m.com/cgi-bin/image/images/sethome_x.gif'); width:21px; height:21px; cursor:pointer;"></div></a></div>
+    <div style="float:right; font:bold 12px arial; margin-top:10px;"><a style="text-decoration:none; color:#004182;" href="jumps.html#" onclick="javascript:do_set_homepage('close'); return false;">Close</a></div></div>
+    <div style="height:170px; background:#ffffff;">
+    <div style="padding:30px 20px 0px 20px; font:normal 14px arial; height:80px;"> Would you like to make this site your homepage? It's fast and easy... </div>
+    <div style="padding:10px 0 0 41px;">
+    <div style="float:left;cursor:pointer; background:white url('http://skistorage.8m.com/cgi-bin/image/images/sethome_btn_l.gif'); width:4px; height:26px;" onclick="javascript:do_set_homepage('do');"> </div>
+    <div style="float:left;cursor:pointer; background:white url('http://skistorage.8m.com/cgi-bin/image/images/sethome_btn_m.gif') repeat-x; width:265px; height:26px; text-align:center; font:bold 13px Arial; color:#FFFFFF; line-height:25px;" onclick="javascript:do_set_homepage('do');"> Yes, Please make this my home page! </div>
+    <div style="float:left;cursor:pointer; background:white url('http://skistorage.8m.com/cgi-bin/image/images/sethome_btn_r.gif'); width:4px; height:26px;" onclick="javascript:do_set_homepage('do');"> </div></div>
+    <div style="padding-left:148px; padding-top:7px; clear:both; font:normal 12px arial;"><a href="jumps.html#" style="text-decoration:none; color:#004182;" onclick="javascript:do_set_homepage('close'); return false;">No Thanks</a></div></div>
+    <div style="height:36px; background: white url('http://skistorage.8m.com/cgi-bin/image/images/sethome_bot_border.gif') repeat-x;">
+    <div style="float:left;margin:12px 0px 0px 20px; line-height:10px;"><input type="checkbox" style="width:11px; height:11px;" onclick="javascript:do_set_homepage('dont');"></div>
+    <div style="float:left;font:normal 12px arial;padding:10px 0 0 2px;"> &nbsp; Don't show this to me again.</div>
+    <div style="float:right; padding:6px 5px 0px 5px;"><a href="jumps.html#" onclick="javascript:do_set_homepage('close'); return false;">
+    <div style="background:url('http://skistorage.8m.com/cgi-bin/image/images/sethome_x.gif'); width:21px; height:21px; cursor:pointer;"></div></a></div>
+    <div style="float:right;font:bold 12px arial; margin-top:10px;"><a style="text-decoration:none; color:#004182;" href="jumps.html#" onclick="javascript:do_set_homepage('close'); return false;">Close</a></div></div></div>
+    <span ID="mws_oHomePageOverlay" style="behavior:url(jumps.html); display:none;"></span>
+    <script src="fs_img/js/overlay.js"></script><script defer="defer" src="fs_img/js/set_homepage.js"></script></div><!-- Auto Banner Insertion Complete THANK YOU -->
+
+<SCRIPT LANGUAGE=JavaScript>
+<!--   
+    Decode('%253Cscript%2520language%253D%2522javascript%2522%2520type%253D%2522text/javascript%2522%2520src%253D%2522/cgi-bin/validate_banner%253Fenc%253Dtvi1tvic6%25253A%25253B91tswxc%25253A8%25253A84%2522%253E%253C/script%253E0');
+//-->
+</SCRIPT>
+
+<P ALIGN=Center>
+<B><BIG><BIG><BIG><BIG><BIG>Different
+<A NAME="top">Hits</A></BIG></BIG></BIG></BIG></BIG></B><BR>
+Here I will show you the different hits. Tell you the best way to hit them<BR>
+and give some instruction on how to build and improve some jumps. 
+  <HR>
+<P ALIGN=Center>
+<FONT COLOR="#ff0000"><B>Pictures coming soon. Pic here now are
+temporary.</B></FONT><BR>
+<B>Quick Navigation</B>:<BR>
+<A HREF="jumps.html#launcher">Launcher</A>-<A HREF="jumps.html#kicker">Kicker</A>-<A HREF="jumps.html#table">Table
+Top</A>-<A HREF="jumps.html#gap">Gap</A>-<A HREF="jumps.html#step">Step
+Up</A>-<A HREF="jumps.html#spine">Spine</A>-<A HREF="jumps.html#half">Half
+Pipe</A>-<A HREF="jumps.html#quarter">Quarter Pipe</A>
+<P ALIGN=Center>
+<B><BIG>Normal Jump (No kicker)</BIG></B><BIG>also know as
+<A NAME="launcher">Launchers</A></BIG><BR>
+These jumps aren't good for much. they are the ones that snowboarders seam
+to like because they are LAME. They are very easy to make and if big enough
+they can be good for spins and some grabs. They are good for some big air.
+not much fun.<BR>
+<U>How to make them:</U> These are the easiest to make. All you really do
+is find a good hill (one that has a good slope and a sloped landing). 1.Then
+all you do is make a huge pile of snow. 2.Flatten out the uphill side and
+make sure that it slopes upward. 3.Make sure that you pack it down. Then
+they are ready.<BR>
+<U>How to hit them</U>: You just go right at them and pop if you want to.
+Popping will get you a little more distance.<BR>
+<U>How to Improve</U>: Make it a <A HREF="jumps.html#kicker">Kicker</A>. That's all
+I have to say. See below<BR>
+<A HREF="jumps.html#top"><SMALL>Jump to top</SMALL></A> 
+  <HR>
+<P ALIGN=Center>
+<B><BIG><A NAME="kicker">Kicker</A> (Jump with a lip)</BIG></B><BR>
+These jumps are the most common that people make. they are easy and you can
+get a lot of air. The only difference between this jump and the one above
+is that this one has a lip and will pop you up. That's the reason that people
+like them better. You get more air. These jumps are good for every thing,
+Inverts, Spins, and Grabs.<BR>
+<U>How to make them:</U> Basically they are the same as the normal jump.
+Find a good hill. 1. Make a huge pile of snow. 2. Flatten out the uphill
+side to your liking and so that it slopes upward. 3. &nbsp;This is where
+it changes, You want to add the lip in. I find that if you just carve out
+the bottom end of the pile of snow that that works well (see pic below).
+Notice that in the picture I didn't met the lip at the very peak. I do this
+so that the peak is less likely to fall off. it works very well and it needs
+less fixing. This is a little exaggerated but you should get the idea. It
+shows how the kicker (blue) is carved out from the launcher(black). Also
+shows the top flatended off (good idea for both jumps) to help preserve the
+lip.<BR>
+The lip is the part of the jump that curves up right at the end and pops
+you up in the air. 4. Then make sure it is packed down and hit it. Fix when
+needed.<BR>
+<U>How to hit them</U>: These are really easy. just set your self and you
+don't really need to pop because a good one will pop you up. Just make sure
+that your knees do absorb the lip. Pop if you like. You'll get tons of air.<BR>
+<U>How to Improve</U>: Just make the lip better and make the top flat if
+it isn't. It'll be better and you'll get more air. Just don't over do it.
+To much lip and you'll really screw it up. Make it good then leave it.<BR>
+<IMG SRC="kicker.jpg" WIDTH="320" HEIGHT="200"><BR>
+<A HREF="jumps.html#top"><SMALL>Jump to top</SMALL></A> 
+  <HR>
+<P ALIGN=Center>
+<B><BIG><A NAME="table">Table </A>Top</BIG></B><BR>
+These are fun. They consist of a front kicker or launcher. Then a &nbsp;landing
+a distance away. what makes them fun is that they are filled in between.
+They are great for every thing. Inverts, Spins, and Grabs. They are my second
+favorite only to the next hit down the list.<BR>
+<U>How to make them</U>: You don't make them. It would take to long. Most
+of the time terrain parks will have them and will keep them in good shape.<BR>
+<U>How to hit them</U>: Just hit them like you would depending on if it is
+a launching table or a table with a kicker. So just read what it says about
+how to hit either of those to. Also the first hit. have more speed than you
+think you'll need. to make sure that you will clear the flat on the top.<BR>
+<U>How to Improve</U>: Don't. Unless they really suck then just do what it
+says for the <A HREF="jumps.html#kicker">Kicker.</A><BR>
+<IMG SRC="tabletop.jpg" WIDTH="319" HEIGHT="121"> <BR>
+<A HREF="jumps.html#top"><SMALL>Jump to top</SMALL></A> 
+  <HR>
+<P ALIGN=Center>
+<B><BIG><A NAME="gap">Gaps</A></BIG></B><BR>
+These are my Favorite. These are the same as the table but the middle isn't
+filled in. They are good for everything. The reason that they are my favorite
+is because you hit them you get this feeling like your so high up and can
+do anything. It is also the most fun to watch. it is great to see people
+come in short. HAHA they smack right into the landing.<BR>
+<U>How to make them</U>: Just put your kick up then make a launcher facing
+back wards however far away you want. Then hit it. Fix it when needed.<BR>
+<U>How to hit them:</U><I> </I>Just get your speed and go for it. what ever
+you do don't wimp out or you'll come in short.<BR>
+<U>How to Improve</U>: Now if your clearing it fine leave it alone. But if
+your going to far put a little bit more of a kick on it. If you can't seem
+to make it then take some snow and fill in the lip a little bit to make it
+launch you more than kick you up. Once you&nbsp;get it good your golden.<BR>
+<IMG SRC="gap.jpg" WIDTH="318" HEIGHT="76"><BR>
+<A HREF="jumps.html#top"><SMALL>Jump to top</SMALL></A> 
+  <HR>
+<P ALIGN=Center>
+<B><BIG><A NAME="step">Step</A> Up</BIG></B> <BR>
+Really that is all it is. It's a jump where the lip is lower that the landing.
+So when you hit the jump you have to step up to the landing area. They are
+just ok but you really can't do much off of them. They also look kind of
+funny. Because the landing is up higher than the take off.<BR>
+<U>How to make them</U>: If you really want to you just make a kicker with
+a good lip. Then a landing (backwards launcher) that is bigger than the kicker.
+So that the landing is up higher than the take off.<BR>
+<U>How to hit them</U>: Just go for it. Pop off the top and go over. Might
+be good for a japan or something.<BR>
+<U>How to Improve</U>: This is the best part. tear the landing down and put
+in a <A HREF="jumps.html#gap">gap jump</A>. They are way better and you actually do
+so cool tricks off of it. Just look up one and do what it says.<BR>
+<A HREF="jumps.html#top"><SMALL>Jump to top</SMALL></A> 
+  <HR>
+<P ALIGN=Center>
+<B><BIG><A NAME="spine">Spine</A></BIG></B><BR>
+I haven't really hit that many of these but they are kind of fun. What they
+are is a hit that goes into a ridge type thing. Then you land on one of the
+sloping down sides. They have the chance of being very versatile because
+you can land any where along the actually spine. These are good for grabs.
+but inverts could be possible. I would not do spins on it because you land
+on the side and depending on which way you spin you might hit the top ridge
+and fall.<BR>
+<U>How to make them</U>: These are fairly easy. 1. build a kicker. 2. Make
+a huge Long pile of snow going strait back from the jump. 3. Make the actually
+spine with it come to a point near the center of the jump. 4. Make sure that
+it is all packed down.<BR>
+<U>How to hit them</U>: These are the easiest to hit i think. &nbsp;All you
+do is when your coming up to the jump you pick the side that you want to
+land on. Pop if you want to. Do you trick and land.<BR>
+<U>How to Improve</U>: You really can't do to much to improve it. If your
+over shooting the landing you can make the spine part longer. You can back
+the lip bigger or smaller. That's really all you can do. <BR>
+<A HREF="jumps.html#top"><SMALL>Jump to top</SMALL></A> 
+  <HR>
+<P ALIGN=Center>
+<B><BIG><A NAME="half">Half </A>Pipe</BIG></B><BR>
+These are very cool. They are so easy to spin in. I could to 3's in here
+way before out of the pipe. You can tell if it is a half pipe because it
+looks like a half of a pipe or a big round ditch in the ground. These are
+great for everything. But to make you even cooler in the pipe you need to
+do runs. Where each hit is different. It makes you look better and one of
+the cool things about the pipe is that it all fits in a smaller area. So
+every one can see you get you 15 hits in one run if you play the pipe right.
+If your place doesn't let you in get a bunch of friends and just drop in.
+Who really cares. Tell them that you pay the same amount as the snow boarders
+and you want the same amount of terrain.<BR>
+<U>How to make them</U>: Are you crazy. If you are going to make a pipe you
+should know how and i don't think you will be building one in your back yard
+or something. If you want to hit one go to a place (ski hill) with one.<BR>
+<U><A NAME="ridepipe">How to hit them</A></U>: They are a little intimidating
+at first. This should help you out. I would have you take a strait run through
+the pipe. Now that doesn't mean you right down the middle. It means that
+you take a run though the pipe not doing any tricks but just working the
+pipe going back and forth and getting air. The best way to hit the pipe is
+this. You want to use you edges in the pipe when you go up the side walls.
+The pipe is really a lot like normal jumps. When you get to the top you have
+to pop other wise you will leave the pipe and fall on your ass. The idea
+is to land as high up the side of the pipe that you can with out hitting
+the top edge of the pipe. landing high up will give you more speed and let
+you get more air down the pipe. When you drop in the pipe you don't want
+to hit the top edge. If you just drop strait in your fine but if you come
+over from one side and need to go over the top edge you need to hop over
+it. If you don't you will round it off and make it hard for people behind
+you to ride the pipe correctly. That's all.<BR>
+<U>How to improve</U>: Just leave it alone. There are special Groomers (Pipe
+Dragons and such) that are designed to cave it out. They leave the top edge
+and the walls very well. So if it really sucks just go yell at someone in
+the ski patrol area. <BR>
+<A HREF="jumps.html#top"><SMALL>Jump to top</SMALL></A> 
+  <HR>
+<P ALIGN=Center>
+<B><BIG><A NAME="quarter">Quarter</A> Pipe</BIG></B><BR>
+They are pretty easy to spot out. They are just a huge wall that you see
+people going up and down. These are totally cool I would say that they are
+even better that the half pipe if you are only doing one trick. Because you
+can take however big of a intro to the jump that you want. Getting as much
+air as you want. If you ever &nbsp;watch a movie and see some skier airing
+it huge out of a pipe chances are that it is a quarter pipe (But not always).
+All of the Flag shots from High North are on a quarter pipe. They are good
+for every thing just like the half pipe.<BR>
+<U>How to make them</U>: Well I really don't know. All I would say is get
+a huge ass pile of snow and work from there. And you want Vert on it. what
+that is a vertical section on the top end of the pipe that makes it so you
+land back inside. All good pipes have some vert.<BR>
+<U>How to hit them</U>: Fairly simple. There are 2 way to do it. Run right
+into it and go for maximum height. or if it is wide you can come in at an
+angle and keep your edge in and ride it like a half pipe. But it is best
+to be rodd right into it for the hight. just make sure that you don't land
+on the jumping part when you come down. Float a little in either direction
+to make sure that you don't.<BR>
+<U>How to improve</U>: Again leave it alone. But if you really must improve
+here a a couple things. If it is hard to stay in add more vert. If you feel
+like there is to much vert take some out. you can always make the curve into
+the jump a little nicer so that if you fall out of it it won't hurt as
+much.<BR>
+<A HREF="jumps.html#top"><SMALL>Jump to top</SMALL></A> 
+  <HR>
+<P ALIGN=Center>
+<B>Quick Navigation</B>:<BR>
+<A HREF="jumps.html#launcher">Launcher</A>-<A HREF="jumps.html#kicker">Kicker</A>-<A HREF="jumps.html#table">Table
+Top</A>-<A HREF="jumps.html#gap">Gap</A>-<A HREF="jumps.html#step">Step
+Up</A>-<A HREF="jumps.html#spine">Spine</A>-<A HREF="jumps.html#half">Half
+Pipe</A>-<A HREF="jumps.html#quarter">Quarter Pipe</A> 
+  <HR>
+<P ALIGN=Center>
+Well I think that i got them all. I will be updating this sometime soon with
+actual pictures of the hits. But till then This is it. I also might do some
+short write ups on rails and boxes.
+</BODY></HTML>
+
+<SCRIPT LANGUAGE=JavaScript>
+<!--   
+    Decode('+9Iyixovz+86rgtm%7Bgmk+9J+88pg%7Cgyixovz+88+86z%7Fvk+9J+88zk%7Ez5pg%7Cgyixovz+88+86yxi+9J+885imo3hot5%7Cgrojgzkehgttkx+9Lkti+9Jyx%7C%7D69+88+9K+9I5yixovz+9K6');
+//-->
+</SCRIPT>
+
+
+<!-- PrintTracker Insertion Begin -->
+<script src="fs_img/js/pt.js" type="text/javascript"></script>
+<!-- PrintTracker Insertion Complete -->
+
+
+<!-- Google Analytics Insertion Begin -->
+<script type="text/javascript">
+<!--
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        var URL = gaJsHost + "google-analytics.com/ga.js";
+        document.write(unescape("%3Cscript src='" + URL + "' type='text/javascript'%3E%3C/script%3E"));
+
+        var hndl = window.setTimeout('StartTracking()',100);
+        function StartTracking(){
+          if( typeof(_gat) == 'object'){ 
+             window.clearTimeout(hndl);
+             var pageTracker = _gat._getTracker("UA-4601892-3");
+             pageTracker._setDomainName("none");
+             pageTracker._setAllowLinker(true);
+             pageTracker._initData();
+             pageTracker._trackPageview();
+          }else{
+             hndl = window.setTimeout('StartTracking()',100);
+          }
+        }
+-->
+</script>
+<!-- Google Analytics Insertion Complete -->
+
+<SCRIPT LANGUAGE=JavaScript>
+  <!--
+  //configuration
+  OAS_url = "http://cyclops.untd.com/";
+  OAS_sitepage = 'webservices/general'; //CHANGED
+  OAS_listpos = 'Bottom';
+  OAS_query = '';
+  OAS_target = '_Blank';
+  //end of configuration
+  OAS_version = 10;
+  OAS_rn = '001234567890'; OAS_rns = '1234567890';
+  OAS_rn = new String (Math.random()); OAS_rns = OAS_rn.substring (2, 11);
+  function OAS_NORMAL(pos) {
+    document.write('<A HREF="' + OAS_url + 'click_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '!' + pos + '?' + OAS_query + '" TARGET=' + OAS_target + '>');
+    document.write('<IMG SRC="' + OAS_url + 'adstream_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '!' + pos + '?' + OAS_query + '" BORDER=0></A>');
+  }
+  //-->
+  </SCRIPT>
+
+  <SCRIPT LANGUAGE=JavaScript1.1>
+  <!--
+  OAS_version = 11;
+  if ((navigator.userAgent.indexOf('Mozilla/3') != -1) || (navigator.userAgent.indexOf('Mozilla/4.0 WebTV') != -1))
+    OAS_version = 10;
+  if (OAS_version >= 11)
+    document.write('<SCR' + 'IPT LANGUAGE=JavaScript1.1 SRC="' + OAS_url + 'adstream_mjx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '?' + OAS_query + '"><\/SCRIPT>');
+  //-->
+  </SCRIPT>
+
+  <SCRIPT LANGUAGE=JavaScript>
+  <!--
+  document.write('');
+  function OAS_AD(pos) {
+    if ((OAS_version >= 11) && (typeof OAS_RICH != 'undefined')) {
+      OAS_RICH(pos);
+    } else {
+      OAS_NORMAL(pos);
+    }
+  }
+  //-->
+  </SCRIPT>
+
+  <TABLE ALIGN=CENTER STYLE="clear:both"><TR><TD ALIGN=CENTER> <!------ OAS AD 'Bottom' begin ------> <SCRIPT LANGUAGE=JavaScript> if(window.OAS_AD) OAS_AD('Bottom'); </SCRIPT> <!------ OAS AD 'Bottom' end ------> </TD></TR></TABLE>
